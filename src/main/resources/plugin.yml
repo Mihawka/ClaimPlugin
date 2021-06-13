@@ -1,0 +1,14 @@
+name: ClaimPlugin
+version: ${project.version}
+main: fr.mihawka.epidya.Main
+api-version: 1.15
+authors: [ Mihawka ]
+description: Épreuve de compétences
+
+commands:
+  claim:
+    description: Commande de claim
+    usage: /<command>
+  unclaim:
+    description: Commande d'unclaim
+    usage: /<command>
